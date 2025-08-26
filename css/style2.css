@@ -1,0 +1,39 @@
+.ul-list{
+    font-family: 'Poppins';
+font-weight: 500;
+font-style: Medium;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+color:#000000;
+}
+#banner-section{
+    
+}
+.shop{
+    font-family: 'Poppins';
+font-weight: 500;
+font-style: Medium;
+font-size: 48px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+.home{
+    font-family: 'Poppins';
+font-weight: 500;
+font-style: Medium;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+.shop0{
+    font-family: 'Poppins';
+font-weight: 300;
+font-style: Light;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
