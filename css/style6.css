@@ -1,0 +1,134 @@
+  body {
+      font-family: 'Poppins', sans-serif;
+    }
+
+
+  .ul-list{
+    font-family: 'Poppins';
+font-weight: 500;
+font-style: Medium;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+color:#000000;
+}
+
+.shop{
+    font-family: 'Poppins';
+font-weight: 500;
+font-style: Medium;
+font-size: 48px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+.home{
+    font-family: 'Poppins';
+font-weight: 500;
+font-style: Medium;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+.shop0{
+    font-family: 'Poppins';
+font-weight: 300;
+font-style: Light;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+
+
+  .form-control {
+    border-width: 2px;   /* border মোটা */
+    border-color: #9F9F9F; /* Bootstrap primary color */
+  }
+
+ .custom-input {
+    height: 65px;      /* height বড় */
+    font-size: 18px;   /* font বড় */
+  }
+  .last-div{
+        padding-left: 40px;
+        background-color: #FAF3EA;
+        padding-top: 100px;
+         padding-bottom: 100px;
+    }
+    .last-div h4{
+        font-family: 'Poppins';
+font-weight: 600;
+font-size: 25px;
+line-height: 150%;
+letter-spacing: 0%;
+color:#242424;
+    }
+
+.last-div{
+    font-family: 'Poppins';
+font-weight: 500;
+font-size: 17px;
+line-height: 150%;
+letter-spacing: 0%;
+color:#898989;
+}    
+
+
+.ft{
+    font-family: 'Poppins';
+font-weight: 400;
+font-style: 'Regular';
+font-size: 16px;
+line-height:2;
+letter-spacing: 0%;
+color:#9F9F9F;
+}
+.ft-head{
+    font-family:'Poppins';
+font-weight: 500;
+font-style: Medium;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+color:#9F9F9F;
+}
+.footer-link{
+    font-family:'Poppins';
+font-weight: 500;
+font-style: Medium;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+color:#000000;
+text-decoration: none;
+}
+.lastp{
+    font-family: 'Poppins';
+font-weight: 400;
+font-style: 'Regular';
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+margin-left: 75px;
+}
+
+.heading{
+    font-family: 'Poppins';
+font-weight: 600;
+font-size: 36px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+.heading-p{
+    font-family: 'Poppins';
+font-weight: 400;
+font-style: 'Regular';
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+color:#9F9F9F;
+}

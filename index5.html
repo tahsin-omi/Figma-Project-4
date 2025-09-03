@@ -4,12 +4,306 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 <link rel="stylesheet" href="/css/style5.css"> 
 </head>
 <body>
     
+ <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid ">
+            <a class="navbar-brand" href="#"><img src="./images/mainlogo.png"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center " id="navbarNav">
+                <ul class="navbar-nav ul-list mx-auto gap-5">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="icondiv d-flex align-items-center gap-4 me-5 .ul-list ">
+                <i class="bi bi-person-check"></i>
+                <i class="bi bi-search"></i>
+                <i class="bi bi-heart"></i>
+                <i class="bi bi-cart-check"></i>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+
+ <div id="banner-section ">
+        <div class="position-relative text-center pb-4">
+            <img src="./images/Rectangle 1.png" style="width:100%;height: 100%;">
+            <div class="position-absolute top-50 start-50 translate-middle">
+                <h1 class="shop ">Checkout</h1>
+                <div class="d-flex">
+                    <p class="home p-1">Home</p><i class="bi bi-chevron-right"></i>
+                    <p class="shop0 p-1">Checkout</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+<div id="form-section  ">
+    <div class="container">
+        <h2 class="billing pt-5 pb-4">Billing details</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="right">
+
+                    <div class="d-flex gap-4">
+                          <div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label first-name pb-3">First Name</label>
+  <input type="name" class="form-control custom-input rounded-3" id="exampleFormControlInput1" placeholder="">
+</div>
+ <div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label first-name pb-3">Last Name</label>
+  <input type="name" class="form-control custom-input rounded-3" id="exampleFormControlInput1" placeholder="">
+</div>
+                    </div>
+
+                      <div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label first-name pb-3 pt-4">Company Name (Optional)</label>
+  <input type="name" class="form-control custom-input rounded-3" id="exampleFormControlInput1" placeholder="">
+</div>
+
+
+  <div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label first-name pb-3  pt-4">Country / Region</label>
+  <input type="name" class="form-control custom-input rounded-3" id="exampleFormControlInput1" placeholder="Srilanka">
+</div>
+
+
+ <div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label first-name pb-3  pt-4">Street address</label>
+  <input type="name" class="form-control custom-input rounded-3" id="exampleFormControlInput1" placeholder="">
+</div>
+ <div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label first-name pb-3  pt-4">Town / City</label>
+  <input type="name" class="form-control custom-input rounded-3" id="exampleFormControlInput1" placeholder="Western Province">
+</div>
+ <div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label first-name pb-3  pt-4">Province</label>
+  <input type="name" class="form-control custom-input rounded-3" id="exampleFormControlInput1" placeholder="">
+</div>
+ <div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label first-name pb-3  pt-4">ZIP code</label>
+  <input type="name" class="form-control custom-input rounded-3" id="exampleFormControlInput1" placeholder="">
+</div>
+ <div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label first-name pb-3  pt-4">Phone</label>
+  <input type="name" class="form-control custom-input rounded-3" id="exampleFormControlInput1" placeholder="">
+</div>
+ <div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label first-name pb-3  pt-4">Email address</label>
+  <input type="name" class="form-control custom-input rounded-3" id="exampleFormControlInput1" placeholder="">
+</div>
+ <div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label first-name pb-3  pt-4"></label>
+  <input type="name" class="form-control custom-input rounded-3" id="exampleFormControlInput1" placeholder="Additional information">
+</div>
+
+                   
+                </div>
+            </div>
+
+
+<div class="col-md-8 justify-content-center align-items-center">
+    <div class="bg-white justify-content-center">
+
+  <div class="container my-5">
+    <div class="mx-auto p-4  bg-white rounded-3" style="max-width:600px;">
+
+      <!-- Header -->
+      <div class="d-flex justify-content-between">
+        <h5 class="fw-semibold">Product</h5>
+        <h5 class="fw-semibold">Subtotal</h5>
+      </div>
+
+      <!-- Product Row -->
+      <div class="d-flex justify-content-between align-items-center mt-2">
+        <p class="mb-0 text-muted">Asgaard sofa <span class="text-dark">x 1</span></p>
+        <p class="mb-0">Rs. 250,000.00</p>
+      </div>
+
+      <!-- Subtotal -->
+      <div class="d-flex justify-content-between mt-3">
+        <h6 class="">Subtotal</h6>
+        <p class="mb-0">Rs. 250,000.00</p>
+      </div>
+
+      <!-- Total -->
+      <div class="d-flex justify-content-between mt-2">
+        <h6 class="">Total</h6>
+        <p class="fw-bold fs-5  mb-0" style="color: #B88E2F;">Rs. 250,000.00</p>
+      </div>
+
+      <hr class="my-4">
+
+      <!-- Payment Options -->
+      <div>
+        <div class="d-flex align-items-center mb-2">
+          <span class="me-2 fs-5">●</span>
+          <span class="fw-semibold">Direct Bank Transfer</span>
+        </div>
+        <p class="small ms-4" style="color:#9F9F9F;">
+          Make your payment directly into our bank account. Please use your Order ID as the payment reference. 
+          Your order will not be shipped until the funds have cleared in our account.
+        </p>
+
+        <div class="form-check mb-2">
+          <input class="form-check-input" type="radio" name="payment" id="bank" disabled>
+          <label class="form-check-label fw-semibold " style="color:#9F9F9F;" for="bank">
+            Direct Bank Transfer
+          </label>
+        </div>
+
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="payment" id="cod" disabled>
+          <label class="form-check-label fw-semibold " style="color:#9F9F9F;" for="cod">
+            Cash On Delivery
+          </label>
+        </div>
+      </div>
+
+      <!-- Privacy Policy -->
+      <p class="small mt-3">
+        Your personal data will be used to support your experience throughout this website, to manage access to your account, 
+        and for other purposes described in our <span class="fw-bold">privacy policy</span>.
+      </p>
+
+      <!-- Place Order Button -->
+      <button class="btn w-50  border border-dark rounded-3 py-3  d-block mx-auto">
+        Place order
+      </button>
+
+    </div>
+  </div>
+
+</div>
+</div>
+
+
+        </div>
+    </div>
+
+    </div>
+
+
+  <div class="last-div">
+  <div class="row justify-content-center  ">
+    <div class="col-md-3 ">
+      <div class="d-flex align-items-center">
+<div><img src="./images/trophy 1.png"></div>
+<div><h4>High Quality</h4><p>crafted from top materials</p></div>
+      </div>
+    </div>
+
+     <div class="col-md-3 ">
+      <div class="d-flex align-items-center">
+<div><img src="./images/guarantee.png"></div>
+<div><h4>Warranty Protection</h4><p>Over 2 years</p></div>
+      </div>
+    </div>
+     <div class="col-md-3 ">
+      <div class="d-flex align-items-center">
+<div><img src="./images/shipping.png"></div>
+<div><h4>Free Shipping</h4><p>Order over 150 $</p></div>
+      </div>
+    </div>
+     <div class="col-md-3 ">
+      <div class="d-flex align-items-center">
+<div><img src="./images/customer-support.png"></div>
+<div ><h4 class="">24 / 7 Support</h4><p>Dedicated support</p></div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<hr class="mt-5">
+<footer class="custom-footer py-5 mt-3">
+    <div class="container">
+      <div class="row gy-4 align-items-start">
+
+        <!-- Logo & Social -->
+        <div class="col-12 col-md-3">
+          <h4 class="mb-3 fw-bold">Furniro.
+          </h4>
+          <p class="ft">400 University Drive Suite 200 Coral Gables,<br>
+FL 33134 USA</p>
+          
+        </div>
+
+        <!-- Company -->
+        <div class="col-6 col-md-2">
+          <h6 class="mb-3 ft-head">Links</h6>
+          <ul class="list-unstyled ">
+            <li><a href="#" class="footer-link">Home</a></li>
+            <li><a href="#" class="footer-link">Shop</a></li>
+            <li><a href="#" class="footer-link">About</a></li>
+            <li><a href="#" class="footer-link">Contact</a></li>
+          
+          </ul>
+        </div>
+
+        <!-- Support -->
+        <div class="col-6 col-md-2">
+          <h6 class="mb-3 ft-head">Help</h6>
+          <ul class="list-unstyled ">
+            <li><a href="#" class="footer-link">Payment Options</a></li>
+            <li><a href="#" class="footer-link">Returns</a></li>
+            
+            <li><a href="#" class="footer-link">Privacy policy</a></li>
+           
+          </ul>
+        </div>
+
+        <!-- Newsletter -->
+        <div class="col-12 col-md-4">
+          <h6 class="mb-3 ft-head">Newsletter</h6>
+          <form>
+            <div class="input-group footer-input">
+              <input type="email" class="form-control border-0 border-bottom border-2 rounded-0 me-3 " placeholder="Your email address">
+ <button class="btn border-0 border-bottom border-2 rounded-0 fw-bold px-3" type="button">
+          SUBSCRIBE
+        </button>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+<hr class="" style="margin-right: 120px;margin-left: 75px">
+<p class="lastp">2023 furino. All rights reverved</p>
+    
+
+
 </body>
 </html>
